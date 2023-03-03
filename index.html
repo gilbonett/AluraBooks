@@ -93,7 +93,7 @@
     <section class="carrossel">
         <h2 class="carrossel__titulo">Novos Lançamentos</h2>
         <!-- Slider main container -->
-        <div class="carrossel_container">
+        <div class="carrossel__container">
             <div class="swiper">
                 <!-- Additional required wrapper -->
                 <!-- If we need pagination -->
@@ -139,49 +139,49 @@
     <section class="carrossel">
         <h2 class="carrossel__titulo">Mais Vendidos</h2>
         <!-- Slider main container -->
-    <div class="swiper">
-        <!-- Additional required wrapper -->
-        <!-- If we need pagination -->
-        <div class="swiper-pagination"></div>
+        <div class="carrossel__container">
+            <div class="swiper">
+                <!-- Additional required wrapper -->
+                <!-- If we need pagination -->
+                <div class="swiper-pagination"></div>
 
-        <div class="swiper-wrapper">
-            <!-- Slides -->
-            <div class="swiper-slide"><img src="./assets/images/ReactNative.svg" alt="livro sobre react native"></div>
-            <div class="swiper-slide"><img src="./assets/images/Javascript.svg" alt="livro sobre Javascript"></div>
-            <div class="swiper-slide"><img src="./assets/images/Arquitetura.svg" alt="livro sobre arquitetura"></div>
-            <div class="swiper-slide"><img src="./assets/images/MetricasAgeis.svg" alt="livro sobre metricas ageis"></div>
-            <div class="swiper-slide"><img src="./assets/images/Nodejs.svg" alt="livro sobre nodejs"></div>
-            <!-- If we need navigation buttons -->
-            <div class="swiper-button-prev"></div>
-            <div class="swiper-button-next"></div>
+                <div class="swiper-wrapper">
+                    <!-- Slides -->
+                    <div class="swiper-slide"><img src="./assets/images/ReactNative.svg" alt="livro sobre react native"></div>
+                    <div class="swiper-slide"><img src="./assets/images/Javascript.svg" alt="livro sobre Javascript"></div>
+                    <div class="swiper-slide"><img src="./assets/images/Arquitetura.svg" alt="livro sobre arquitetura"></div>
+                    <div class="swiper-slide"><img src="./assets/images/MetricasAgeis.svg" alt="livro sobre metricas ageis"></div>
+                    <div class="swiper-slide"><img src="./assets/images/Nodejs.svg" alt="livro sobre nodejs"></div>
+                    <!-- If we need navigation buttons -->
+                    <div class="swiper-button-prev"></div>
+                    <div class="swiper-button-next"></div>
+                </div>
+            </div> 
+            <div class="card">
+                <!-- 1 Linha-->
+                <div class="card__descricao">
+                    <!-- 1 Coluna-->
+                    <div class="descricao">
+                        <img src="./assets/images/Estrelinhas.svg" alt="Estrelinhas para avaliar autor">
+                        <h3 class="descricao__titulo">Autor do Mes</h3>
+                        <h2 class="descricao__titulo-livro">Pedro Gil</h2>
+                        <p class="descricao__texto">Desenvolvedor Full-Stack e escritor, Pedro é especialista em Back-end.</p>
+                    </div>  
+                    <!-- 2 Coluna--> 
+                    <img src="./assets/images/Pedro.svg" alt="logo da angular" class="descricao__imagem">
+                </div>
+                <!-- 2 Linha-->
+                <div class="card__botoes">
+                    <!-- 1 Coluna-->
+                    <ul class="botoes">
+                        <li class="botoes__item"><img src="./assets/images/Favoritos.svg" alt="favoritar livro"></li>
+                        <li class="botoes__item"><img src="./assets/images/Compras.svg" alt="adicionar livro no carrinho de compras"></li>
+                    </ul>
+                    <!-- 2 Coluna-->
+                    <a href="#" class="botoes_ancora">Saiba mais</a>
+                </div>
+            </div>   
         </div>
-    </div> 
-    <div class="card">
-        <!-- 1 Linha-->
-        <div class="card__descricao">
-            <!-- 1 Coluna-->
-            <div class="descricao">
-                <img src="./assets/images/Estrelinhas.svg" alt="Estrelinhas para avaliar autor">
-                <h3 class="descricao__titulo">Autor do Mes</h3>
-                <h2 class="descricao__titulo-livro">Pedro Gil</h2>
-                <p class="descricao__texto">Desenvolvedor Full-Stack e escritor, Pedro é especialista em Back-end.</p>
-            </div>  
-            <!-- 2 Coluna--> 
-            <img src="./assets/images/Pedro.svg" alt="logo da angular" class="descricao__imagem">
-        </div>
-        <!-- 2 Linha-->
-        <div class="card__botoes">
-            <!-- 1 Coluna-->
-            <ul class="botoes">
-                <li class="botoes__item"><img src="./assets/images/Favoritos.svg" alt="favoritar livro"></li>
-                <li class="botoes__item"><img src="./assets/images/Compras.svg" alt="adicionar livro no carrinho de compras"></li>
-            </ul>
-            <!-- 2 Coluna-->
-            <a href="#" class="botoes_ancora">Saiba mais</a>
-        </div>
-
-
-    </div>
     </section>
     <section class="topicos">
         <h2 class="topicos__titulo">Tópicos visitados recentemente</h2>

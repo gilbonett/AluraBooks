@@ -58,3 +58,17 @@
     }
     
 }
+
+@media screen and (min-width:1728px) {
+    .contato{
+        padding: 3em 15vw;
+    }
+
+    .contato__email::placeholder{
+        font-family: var(--fonte-principal);
+        color: var(--azul);
+        background:url("../assets/images/Email.svg") no-repeat;
+        padding-left: 2em;
+    }
+
+}
