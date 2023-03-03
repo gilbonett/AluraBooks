@@ -15,7 +15,6 @@
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    list-style-type: none; 
 }
 
 .topicos__item{
@@ -29,4 +28,19 @@
     font-weight: 700;
     font-size: 14px;
     text-decoration: none;
+}
+
+@media screen and (min-width:1024px) {
+    .topicos__titulo{
+        font-size: 24px;
+    }
+
+    .topicos__lista{
+        gap: 24px;
+    }
+
+    .topicos__link{
+        font-size: 24px;
+    }
+    
 }
