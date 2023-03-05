@@ -34,6 +34,7 @@ Para clonar e executar este projeto em seu computador, você precisará do [Git]
 ```bash
 # Clone esse repositório com:
 > https://github.com/gilbonett/AluraBooks.git          
+```
 
 ## 🤝 Desenvolvedor
 
