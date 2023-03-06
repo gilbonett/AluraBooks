@@ -3,6 +3,7 @@
 <br>
 <p align="center">
   <a href="#-descrição-do-projeto">Descrição do Projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#Car">Presentação</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-tecnologias-e-bibliotecas">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-clonando-o-projeto">Clonando o Projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-desenvolvedores">Contato</a>
@@ -19,6 +20,20 @@
 ## 📝 Descrição do Projeto
 
 <p align="justify"> O site AluraBooks foi desenvolvido no curso de responsividade com mobile firts da Alura, interpretando um prototipo de site criado no figma</p>
+
+<h2 id= Car> Presentação</h2>
+<div align= "center">
+<img src= "https://user-images.githubusercontent.com/101142283/223114069-eb2af0b4-ee1c-42a1-bc01-6b739b115024.jpg" width="1000px"/>
+</div> 
+<div align= "center">
+<img src= "https://user-images.githubusercontent.com/101142283/223114075-4c8c8743-422b-4a27-b8a4-7e43390fff02.jpg" width="1000px"/>
+</div>
+<div align= "center">
+<img src= "https://user-images.githubusercontent.com/101142283/223114080-3c6a0df8-062d-4009-912f-496828801888.jpg" width="1000px"/>
+</div>
+<div align= "center">
+<img src= "https://user-images.githubusercontent.com/101142283/223114084-6696b8f9-d6ae-4f76-820e-69de65c7df22.jpg" width="1000px"/>
+</div>
 
 ## 🚀 Tecnologias e Bibliotecas
 
